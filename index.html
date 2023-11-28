@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-3" href="#">Food</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" typeRecipe="pizza" href="#">pizza</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" typeRecipe="pasta" href="#">pasta</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link active" typeRecipe="Beef" href="#">Beef</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"typeRecipe="Fish" href="#">Fish</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" typeRecipe="ice cream" href="#">ice cream</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" typeRecipe="sushi" href="#">sushi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" typeRecipe="chocolate" href="#">chocolate</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+
+
+    <!-- /////////////////////////////// -->
+<div class="container py-5">
+    <div class="row" id="myData">
+       
+    </div>
+</div>
+
+
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="myDetails">
+        <img src="" id="myImg" class="w-100" alt="">
+        <h3 id="myTitle"></h3>
+        <ol id="ingredients">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+        <div id="url"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- ////////////////////////////////// -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

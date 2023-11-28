@@ -1,0 +1,25 @@
+.item img{
+    height: 250px;
+}
+.nav-link.active{
+    position: relative;
+}
+.nav-link.active::after{
+    position: absolute;
+    content: "";
+    top: 40px;
+    left: 5px;
+    width: 0;
+    height: 3px;
+    background-color: #333;
+    transition: 0.5s;
+}
+.nav-link.active:hover::after{
+    width: 35px;
+}
+.item{
+   background: #d3d3d3;;
+}
+.navbar{
+ background-color: #808080;
+}
